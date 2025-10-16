@@ -4,18 +4,18 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "rails", "~> 7.1.0"
-gem "omniauth"
+gem "rails", "~> 7.1.1"
+gem "omniauth", ">= 2.1.2"
 gem "omniauth-oauth2"
 gem "rdoc"
 
 gem "rails-controller-testing", github: "rails/rails-controller-testing"
 
-gem "responders", "~> 3.1"
+gem "responders", "~> 3.1", ">= 3.1.1"
 
 group :test do
-  gem "omniauth-facebook"
-  gem "omniauth-openid"
+  gem "omniauth-facebook", ">= 10.0.0"
+  gem "omniauth-openid", ">= 2.0.2"
   gem "rexml"
   gem "timecop"
   gem "webrat", "0.7.3", require: false
