@@ -6,7 +6,7 @@ gemspec
 
 gem "rails", "~> 7.1.0"
 gem "omniauth"
-gem "omniauth-oauth2"
+gem "omniauth-oauth2", ">= 1.9.0"
 gem "rdoc"
 
 gem "rails-controller-testing", github: "rails/rails-controller-testing"
@@ -14,7 +14,7 @@ gem "rails-controller-testing", github: "rails/rails-controller-testing"
 gem "responders", "~> 3.1"
 
 group :test do
-  gem "omniauth-facebook"
+  gem "omniauth-facebook", ">= 10.0.0"
   gem "omniauth-openid"
   gem "rexml"
   gem "timecop"
